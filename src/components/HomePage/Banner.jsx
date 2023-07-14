@@ -14,7 +14,7 @@ function Banner() {
         <div className='flex flex-1 flex-col text-center items-center md:items-start md:text-left z-10  max-w-full lg:space-y-2 xl:pl-20'>
             <h1 className='font-bold leading-loose md:text-4xl'>We help you grow your<span className='text-primary'> conversations.</span></h1>
             <span className='text-base pt-4 leading'>Featured in leading publications around the world</span>
-            <div className='flex space-x-6 transform scale-[.5] xs:scale-[.55] md:scale-[.6] xl:scale-[0.65] -ml-20 sm:-ml-28 md:-ml-24 lg:-ml-28 xl:-ml-32 pl-0'>
+            <div className='flex space-x-6 transform scale-[.5] xs:scale-[.55] md:scale-[.6] xl:scale-[0.65] -ml-20 sm:-ml-28 md:-ml-24 lg:-ml-28 xl:-ml-28 pl-0'>
                 <img src={Group} alt='market-watch'/>
                 <img src={Slogo} alt='SaaS Insider'/>
                 <img src={Fiverr} alt='Fiver'/>

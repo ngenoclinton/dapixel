@@ -1,0 +1,90 @@
+
+.MainBanner {
+    display: block;
+}
+.MainBanner h1 {
+    font-size: 50px;
+    color:green;
+    line-height: 4rem;
+}
+.show{
+    display: none;
+}
+
+.slideOut {      
+      transform: translateX(100%);
+      transition: transform 0.8s ease-in-out;
+  }
+  
+.slideIn {
+      transform: translateX(0);
+      transition: transform 0.8s ease-in-out;
+  }
+  
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .Flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+        margin: 0 auto;
+    }
+    .MainBanner h1{
+        font-size: 40px;
+        line-height: 3.5rem;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1023px){
+    .MainBanner h1 {
+        font-size: 40px;
+        line-height: 3.8rem;
+    }
+    .Flex{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 100px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){    
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    .Flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 90px;
+        padding:50px 70px;
+        margin: 0 auto;
+    }
+    .MainBanner h1 {
+        font-size: 38px;
+        color:green;
+        line-height: 3.8rem;
+        margin-bottom: 25px;
+        white-space: nowrap;
+    }
+    .MainBanner .l-image{
+        transform: scale(1.2);
+    }
+}
+@media screen and (max-width: 767px) {
+    .show{
+        display: block;
+    }
+    .MainBanner h1 {
+        font-size: 30px;
+        line-height: 3rem;
+    }
+}
+@media screen and (max-width: 541px) {
+    .MainBanner h1 {
+        font-size: 28px;
+        line-height: 2.7rem;
+    }
+}
